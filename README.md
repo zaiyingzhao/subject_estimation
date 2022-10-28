@@ -1,6 +1,6 @@
 # subject_estimation
 
-pandas, MeCab, gensim, tensorflow.kerasを用い, 教師あり学習により大学入試問題文からその科目を推定するコードを作成した。
+pandas, MeCab, gensim, tensorflow.kerasを用い, 教師あり学習により大学入試問題文からその科目を推定するプログラムを作成した。
 
 ## 1. pandasによるデータ読み込みおよび整形
 入試問題文とその科目はそれぞれexamination_test.csv, examination_answer.csvとcsvファイルで与えられており, これらをまずpandasを用いて読み込み, かつMeCabが利用できる形に整形した。
